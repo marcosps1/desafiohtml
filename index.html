@@ -1,0 +1,130 @@
+<html>
+    <head>
+	    <title>Marcos | Desafio HTML</title>
+        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+        <link rel="shortcut icon" href="images/marcos-icon.png" type="image/x-png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+        <div id="cabecalho">
+            <img src="images/altislab.png" width="120" height="60" style="float: left; pointer-events: none; margin-left: 2.5%;">
+	        <img src="images/m-icon.png" width="50" height="50" style="float: right; pointer-events: none; margin-top: 0.6%; margin-right: 2.5%;">
+	    </div>
+	<div id="menu">
+        <i class="fa fa-bars" style="margin-top: 5%; margin-left: 5%;"></i>
+        <div id="perfil">
+            <img src="images/marcos-icon.png" width="100" height="100">
+            <h3>Olá, Marcos</h1><hr/>
+        </div>
+	    <ul>
+		    <li><a href="index.html"><i class="fa fa-home" style="margin-right: 5%;"></i>Início</a></li>
+		    <li><a href="#"><i class="fa fa-laptop" style="margin-right: 5%;"></i>Equipamentos</a></li>
+		    <li><a href="projects.html"><i class="fa fa-users" style="margin-right: 5%;"></i>Projetos</a></li>
+		    <li><a href="#"><i class="fa fa-calendar" style="margin-right: 5%;"></i>Horários</a></li>
+		    <li><a href="#"><i class="fa fa-gear" style="margin-right: 5%;"></i>Configurações</a></li>
+            <li><a href="#"><i class="fa fa-clipboard" style="margin-right: 5%;"></i>Solicitações</a></li>
+	    </ul>
+	</div>
+    <div id="conteudo">
+        <div id="bloco1">
+            <div id="bloco2">
+                <h1>Início</h1>
+                <div id="last-requests">
+                    <h3><i class="fa fa-clipboard"></i> Últimas solicitações</h3>
+                    <table>
+                        <tr>
+                            <th style="width: 60%"></th>
+                            <th style="width: 20%;"></th>
+                            <th style="width: 15%; margin-left: 30% !important;"></th>
+                        </tr>
+                        <tr style="cursor: pointer;">
+                            <td><label style="font-weight: bold;">Máquina nova</label><br/><label>Solicitada por: Fulano 1</label></td>
+                            <td><i class="fa fa-hourglass"></i> 0d 2h 10min</td>
+                            <td><label style="color: white; background-color: #3e5055; border-radius: 15%; font-size: 85%;"> Pendente </label></td>
+                        </tr>
+                        <tr style="cursor: pointer;">
+                            <td><label style="font-weight: bold;">Máquina nova</label><br/><label>Solicitada por: Fulano 2</label></td>
+                            <td><i class="fa fa-hourglass"></i> 0d 22h 10min</td>
+                            <td><label style="color: white; background-color: #0e800d; border-radius: 15%; font-size: 85%;"> Atendido </label></td>
+                        </tr>
+                        <tr style="cursor: pointer;">
+                            <td><label style="font-weight: bold;">Máquina nova</label><br/><label>Solicitada por: Fulano 3</label></td>
+                            <td><i class="fa fa-hourglass"></i> 5d 12h 30min</td>
+                            <td><label style="color: white; background-color: #cc1414; border-radius: 15%; font-size: 85%;"> Negado </label></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="equipment">
+                    <h2>Equipamentos</h2>
+                    <h1><i class="fa fa-dashboard" style="color: black;"></i></h1>
+                    <h4>Máquinas alocadas: 35</h4>
+                    <h4>Máquinas com defeito: 3</h4>
+                    <h4>Máquinas paradas: 5</h4>
+                </div>
+                <div id="new-collaborators" style="margin-top: 20%;">
+                    <h3><i class="fa fa-users"></i> Novos colaboradores</h3>
+                    <table id="collaborators">
+                        <tr>
+                          <th>Nome</th>
+                          <th>Celular</th>
+                          <th>Cargo</th>
+                          <th>Projeto</th>
+                          <th>E-mail pessoal</th>
+                          <th>E-mail AltisLab</th>
+                          <th>E-mail WDA</th>
+                          <th>Máquina</th>
+                          <th>Entrada</th>
+                        </tr>
+                        <tr style="cursor: pointer;">
+                          <td>Fulano</td>
+                          <td>(85)99315-5343</td>
+                          <td>Desenvolvedor</td>
+                          <td>Projeto1</td>
+                          <td>fulano@gmail.com</td>
+                          <td>fulano@altislab.com</td>
+                          <td>fulano@wda.com</td>
+                          <td>NXZ-123</td>
+                          <td>02/02/2023</td>
+                        </tr>
+                        <tr style="cursor: pointer;">
+                            <td>Fulano</td>
+                            <td>(85)99315-5343</td>
+                            <td>Desenvolvedor</td>
+                            <td>Projeto1</td>
+                            <td>fulano@gmail.com</td>
+                            <td>fulano@altislab.com</td>
+                            <td>fulano@wda.com</td>
+                            <td>NXZ-123</td>
+                            <td>02/02/2023</td>
+                        </tr>
+                        <tr style="cursor: pointer;">
+                            <td>Fulano</td>
+                            <td>(85)99315-5343</td>
+                            <td>Desenvolvedor</td>
+                            <td>Projeto1</td>
+                            <td>fulano@gmail.com</td>
+                            <td>fulano@altislab.com</td>
+                            <td>fulano@wda.com</td>
+                            <td>NXZ-123</td>
+                            <td>02/02/2023</td>
+                        </tr>
+                        <tr style="cursor: pointer;">
+                            <td>Fulano</td>
+                            <td>(85)99315-5343</td>
+                            <td>Desenvolvedor</td>
+                            <td>Projeto1</td>
+                            <td>fulano@gmail.com</td>
+                            <td>fulano@altislab.com</td>
+                            <td>fulano@wda.com</td>
+                            <td>NXZ-123</td>
+                            <td>02/02/2023</td>
+                        </tr>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/database.js"></script>
+    <script src="js/index.js"></script>
+	</body>
+</html>
